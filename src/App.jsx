@@ -3,13 +3,12 @@ import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
 import BgVideo from "./assets/earth-bg.mp4";
 import wave from "./assets/wave Gif.gif";
-
+import Navbar from "./components/Navbar/Navbar.jsx";
 import Rapidscat from "./components/Rapidscat/Rapidscat.jsx";
 import Satelite from "./components/Satelite/Satelite.jsx";
 import Footer5 from "./components/Footer/Footer5.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Navbar from "./components/navbar/Navbar.jsx";
 
 const App = () => {
   React.useEffect(() => {
